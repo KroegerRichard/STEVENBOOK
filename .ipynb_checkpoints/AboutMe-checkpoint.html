@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About Stevie Kid Wunder</title>
+  <style>
+    body { font-family: Arial, Helvetica, sans-serif; line-height: 1.6; padding: 2rem; background: #f7f9fc; color: #222; min-height: 100vh; }
+    /* Background image using local file path. If you open this file locally, this will work.
+       If you serve the page from a web server, consider copying the image into the project
+       and using a relative path instead (or the server may block file:// URIs). */
+    html, body { height: 100%; }
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      background-image: url("file:///C:/Users/rkroe/OneDrive/Pictures/Saved%20Pictures/Richie%20Rich%20Mansion.jpg");
+      background-size: cover;
+      background-position: center center;
+      filter: brightness(0.55) saturate(0.9);
+      z-index: -1;
+    }
+    .card { max-width: 700px; margin: 2rem auto; background: rgba(255,255,255,0.9); padding: 1.5rem 2rem; border-radius: 8px; box-shadow: 0 6px 18px rgba(20,30,80,0.12); }
+    h1 { margin-top: 0; }
+    .meta { color: #555; }
+    .contact { margin-top: 1rem; }
+    .contact a { color: #0066cc; text-decoration: none; }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <h1>Stephen P Kroeger</h1>
+    <p class="meta">Resident of Cocoa Beach, Florida</p>
+
+    <section class="contact">
+      <h2>Contact</h2>
+      <p>Cell: <a href="tel:+12034826920">203-482-6920</a></p>
+    </section>
+  </main>
+</body>
+</html>
